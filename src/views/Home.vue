@@ -73,6 +73,7 @@ export default {
         data.value = workouts;
         dataLoaded.value = true;
       } catch (error) {
+        // eslint-disable-next-line
         console.warn(error.message);
       }
     };
